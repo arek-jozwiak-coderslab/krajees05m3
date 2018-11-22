@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.sess;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

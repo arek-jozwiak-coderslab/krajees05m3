@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.sess;
 
 import a_Zadania.a_Dzien_1.Book;
 import com.sun.org.apache.xpath.internal.operations.String;
