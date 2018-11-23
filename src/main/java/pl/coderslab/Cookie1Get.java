@@ -14,6 +14,10 @@ public class Cookie1Get extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Cookie[] cookies = request.getCookies();
 
+        int a = 1;
+        int b = 2;
+        boolean some = (a == b) ? true : false;
+
         boolean isSet = false;
         if (cookies != null) {
             for (Cookie c : cookies) {
